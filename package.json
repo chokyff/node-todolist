@@ -1,0 +1,23 @@
+{
+  "name": "node-todolist-yf",
+  "version": "1.0.4",
+  "description": "用node实现的todolist命令行小应用",
+  "main": "index.js",
+  "scripts": {
+    "todo": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "open-todo": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "keywords": [],
+  "author": "YF",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "inquirer": "^7.0.0"
+  }
+}
